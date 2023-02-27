@@ -64,3 +64,4 @@ console.log("" + task5(...[parseInt(prompt("Enter number 1: ", 1)),
 let task6 = (a, b) => a == b;
 console.log(task6(2, 2) + "")
 */
+
