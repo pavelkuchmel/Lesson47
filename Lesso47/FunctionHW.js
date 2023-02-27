@@ -50,5 +50,18 @@ alert(task9(prompt("Enter number: ")))
 */
 
 function task10(a, b){
-
+    let aa = 0;
+    let bb = 0;
+    for (let i = 1; i < a; i++){
+        if (a % i == 0){
+            aa += i;
+        }
+    }
+    for (let i = 1; i < b; i++){
+        if (b % i == 0){
+            bb += i;
+        }
+    }
+    return aa == b && bb == a;
 }
+alert(task10(prompt("Enter num A: "), prompt("Enter num B: ")));
